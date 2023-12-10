@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+}
+.heading{
+ 
+    padding-top: 10px;
+    padding-bottom: 7px;
+  
+}
+.para{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box{
+   margin-top: 15px;
+   margin-bottom: 20px;
+   display: flex;
+   
+}
+.box1 h5{
+    color:  hsl(178, 100%, 50%);
+  font-size: 14px;
+  padding-left: 3px;
+  padding-top: 10px;
+}
+.box1{
+    display: flex;
+    width: 50%;
+}
+.box1 img{
+    padding-top: 5px;
+  padding-right: 5px;
+
+}
+.box2{
+    margin-left: 50px;
+    display: flex;
+    width: 50%;
+}
+.box2 h5{
+    color: hsl(215, 51%, 70%);
+    padding-left: 3px;
+    padding-top: 10px;
+  }
+
+.box2 img{
+    width: 30px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+.last img{
+    display: inline;
+    text-align: left;
+    height: 25px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color:hsl(0, 0%, 100%) ;
+    margin-bottom: 8px;
+    margin-right: 15px;
+}
+.last{
+    margin-top: 15px;
+    display: flex;
+}
+.last p{
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 3px;
+}
+.line{
+color:  hsl(215, 32%, 27%);
+}
